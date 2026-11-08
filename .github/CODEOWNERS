@@ -1,0 +1,25 @@
+# Code owners for Relay Support Agents.
+# Security-sensitive paths always need the maintainer's explicit, line-by-line review,
+# even when a coding agent wrote the change (AGENTS.md).
+
+# Default owner
+*                                               @dileepadev
+
+# Security-sensitive code (AGENTS.md)
+/src/relay_support_agents/domain/policy.py      @dileepadev
+/src/relay_support_agents/domain/audit.py       @dileepadev
+/src/relay_support_agents/mcp_server/auth.py    @dileepadev
+/src/relay_support_agents/agents/guards/        @dileepadev
+/src/relay_support_agents/agents/handoff.py     @dileepadev
+/infra/terraform/                               @dileepadev
+
+# Store policy, thresholds and human-labeled eval data
+/policies/                                      @dileepadev
+/evals/thresholds.yaml                          @dileepadev
+/evals/scenarios/                               @dileepadev
+/evals/redteam/                                 @dileepadev
+/evals/judges/calibration/                      @dileepadev
+
+# CI/CD and deploy permissions
+/.github/workflows/                             @dileepadev
+/.github/CODEOWNERS                             @dileepadev
