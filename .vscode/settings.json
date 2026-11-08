@@ -1,0 +1,7 @@
+{
+  // CODEOWNERS uses .gitignore-style patterns, not Markdown. The "ignore" language
+  // highlights its # comments correctly and keeps markdownlint from linting it.
+  "files.associations": {
+    "CODEOWNERS": "ignore"
+  }
+}

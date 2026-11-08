@@ -1,0 +1,7 @@
+// Matches the markdownlint VS Code extension defaults, so the editor, pre-commit and CI agree.
+// MD013 (line length) is off: long sentences and tables can't be wrapped cleanly.
+// Don't turn off more rules here; fix the content instead (see AGENTS.md).
+{
+  "default": true,
+  "MD013": false
+}
